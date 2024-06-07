@@ -1,0 +1,50 @@
+$main-bg-color: rgb(34, 34, 34);
+$link-color: #fff;
+$margin-glav: 12%;
+$margin-glav-right: 12%;
+
+.container__format-glav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: $margin-glav;
+    margin-top: $margin-glav;
+    
+
+    .container__format {
+        display: flex;
+        flex-direction: column;
+        color: black;
+        margin-left: $margin-glav;
+
+        .format_block1 {
+            margin: 0;
+            width: 144px;
+            padding-bottom: 10px;
+            font-size: 36px;
+            margin-right: $margin-glav-right;
+
+            b {
+                color: black;
+            }
+        }
+
+        .format_block2 {
+            width: 100%;
+        }
+
+        .format_block3 {
+            padding-right: $margin-glav-right;
+            height: 144px;
+            font-size: 19px;
+            b {
+                color: black;
+            }
+        }
+
+        .text-block__format {
+            justify-content: center;
+            margin-right: 7%;
+        }
+    }
+}

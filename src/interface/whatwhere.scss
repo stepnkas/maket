@@ -1,0 +1,42 @@
+$margin-glav: 12%; 
+$margin-glav-right: 12%;
+
+.container__HWW {
+    display: flex;
+    flex-direction: row;
+    width: 87%;
+    margin: $margin-glav;
+    align-items: flex-start;
+    
+    .block__question {
+        
+      width: 23.3%; 
+      box-sizing: border-box;
+      padding-top: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      
+      margin-top: 70px;
+      .text__question {
+        
+        font-size: 26px;
+        
+      }
+      .text_info {
+        
+        font-size: 19px;
+        text-transform: none;
+        margin-top: 20px;
+      }
+    }
+    .block__line {
+      width: 5%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      svg {
+        height: 100%;
+      }
+    }
+  }
